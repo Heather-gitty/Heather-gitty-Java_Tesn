@@ -1,0 +1,6 @@
+tasks:
+  - label: install extensions
+    type: shell
+    command: chmod +x install-extensions.sh && ./install-extensions.sh
+    runOptions:
+      runOn: folderOpen
